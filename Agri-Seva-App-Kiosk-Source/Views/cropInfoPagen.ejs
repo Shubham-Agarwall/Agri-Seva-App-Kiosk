@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Info</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="/css/custom.css" rel="stylesheet">
+
+
+</head>
+
+<body class="well-lg">
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <a href="/../../">Home</a>
+        <a href="/../">Crop information</a>
+        <a href="/../../news">News</a>
+        <a href="/../../weather">Weather</a>
+        <a href="#">Pricing</a>
+        <a href="https://shop.iffcobazar.com/en/plant-growth-promoters.html">Agri Store</a>
+        <a href="/../../contact">Expert Help</a>
+        <a href="/about">About devlopers</a>
+    </div>
+
+
+
+    <div class="footer-blurb jumbotron">
+        <div class="container">
+            <h1 class="text-uppercase text-center bold"> Agri Seva Kiosk</h1>
+            <h4 class="text-center text-lowercase">Agriculture one stop kiosk for all Farmer's needs.</h4>
+        </div>
+
+
+    </div>
+    <div class="feature"> </div>
+
+
+    <div class="container">
+        <h1 class="center-block text-center text-uppercase"><strong><%=title%></strong></h1>
+        <img src="/<%=cropInfo.imageLink%>" alt="" width="320" height="320"
+            class="img-rounded img-thumbnail center-block" />
+        <p><%=cropInfo.fullDesc.seedInfo%></p>
+        </p>
+    </div>
+
+    <div class="container">
+        <h1 class="container-fluid container text-center text-uppercase"><strong>Seed Information</strong></h1>
+        <p><%=cropInfo.fullDesc.seedInfo%></p>
+        <p>&nbsp;</p>
+    </div>
+    <div class="container">
+        <h1 class="container text-center text-uppercase"><strong>Cultivation</strong></h1>
+        <p><%=cropInfo.fullDesc.cultivation%></p>
+    </div>
+    <div class="container">
+        <h1 class="container text-center text-uppercase"><strong>Crop Nutrition</strong></h1>
+        <p><%=cropInfo.fullDesc.cropNutri%></p>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center bold text-uppercase"><strong>Climatic Requirements</strong></h1>
+        <p> <%=cropInfo.fullDesc.climate%>
+        </p>
+
+    </div>
+
+    <div class="container">
+        <h1 class="text-center bold text-uppercase"><strong>Fertilizers</strong></h1>
+        <p> <%=cropInfo.fullDesc.fertilizers%> </p>
+
+    </div>
+    <div class="container">
+        <h1 class="text-center bold text-uppercase"><strong>Crop Protection</strong></h1>
+        <p> <%=cropInfo.fullDesc.cropProtection%>
+        </p>
+
+    </div>
+    <div class="container">
+        <h1 class="container text-center text-uppercase"><strong>Cultivation tutorial</strong></h1>
+        <video controls class="center-block">
+            <source src="/assets/paddy cultivaton_Trim.mp4">
+        </video>
+    </div>
+
+
+    <table width="200" border="1">
+
+
+        </tbody>
+    </table>
+    <div class="container center-block">
+        <div class="center-block">
+            <h1 class="text-center text-uppercase"><strong>Market Pricing</strong></h1>
+            <table width="200" border="1">
+                <tbody>
+                    <tr> </tr>
+                    <tr> </tr>
+                    <tr> </tr>
+                    <tr> </tr>
+                </tbody>
+            </table>
+            <p class="container container-fluid text-justify text-uppercase">
+                <tbody>
+                    <table width="1200" border="1">
+                        <tbody>
+                            <tr>
+                                <td>Variety </td>
+                                <td>MTU-1001 </td>
+                            </tr>
+                            <tr>
+                                <td>Minimum price </td>
+                                <td> 1047</td>
+                            </tr>
+                            <tr>
+                                <td>Average price </td>
+                                <td>1470 </td>
+                            </tr>
+                            <tr>
+                                <td>Maximum price </td>
+                                <td>1470 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </p>
+        </div>
+    </div>
+    <div class="feature jumbotron"> </div>
+    <!-- jQuery -->
+    <script src="/js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport bug workaround -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Placeholder Images -->
+    <script src="js/holder.min.js"></script>
+</body>
+
+</html>
