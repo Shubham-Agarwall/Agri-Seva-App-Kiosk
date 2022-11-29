@@ -1,0 +1,134 @@
+body {
+    padding-top: 50px;
+    color: #959595;
+    background-color: #F5F5F5;
+}
+
+p {
+    align-content: center;
+    color: black;
+}
+
+h1 {
+    align-content: center;
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+
+.dark {
+    color: black;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h2, h3, h4, h5, h6 {
+    color: black;
+    font: bold;
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.feature {
+    background-color: yellowgreen;
+    color: greenyellow;
+}
+
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.article-intro2 {
+    background-size: auto;
+}
+
+.font {
+    font: bold;
+    color: #0A0A0A;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: #FF9A30;
+    color: black;
+}
+
+.footer-blurb-item {
+    padding: 30px;
+}
+
+.small-print {
+    background-color: #fff;
+    padding: 30px 0;
+}
